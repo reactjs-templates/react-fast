@@ -1,36 +1,14 @@
 {
-  "name": "generator-react-fast",
-  "version": "0.1.0",
-  "description": "这是一个相对完整的 React 项目结构",
-  "files": [
-    "src",
-    "static",
-    "build",
-    "config"
-  ],
-  "main": "index.js",
+  "name": "{{ name }}",
+  "version": "1.0.0",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
   "scripts": {
     "dev": "node ./build/dev-server.js",
     "build": "node ./build/build.js",
     "test": ""
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fegg/generator-react-fast.git"
-  },
-  "bugs": {
-    "url": "https://github.com/fegg/generator-react-fast/issues"
-  },
-  "homepage": "https://github.com/fegg/generator-react-fast",
-  "keywords": [
-    "react",
-    "redux",
-    "react-router",
-    "webpack",
-    "yeoman-generator"
-  ],
-  "author": "lulin",
-  "license": "ISC",
+  "private": true,
   "devDependencies": {
     "babel-core": "^6.11.4",
     "babel-loader": "^6.2.4",
