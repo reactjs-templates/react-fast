@@ -1,12 +1,12 @@
 import './userList.css'
 
-import React, { Component, PropTypes } from 'react';
-import User from '../User';
-import _ from 'lodash';
+import React, { Component, PropTypes } from 'react'
+import User from '../User'
+import _ from 'lodash'
 
 export default class UserList extends Component {
   constructor(props) {
-    super(props);
+    super(props)
   }
 
   render() {
@@ -22,11 +22,11 @@ export default class UserList extends Component {
           }) }
         </ul>
       </div>
-    );
+    )
   }
 }
 
 UserList.propTypes = {
   users: PropTypes.object.isRequired,
   actions: PropTypes.object.isRequired
-};
+}

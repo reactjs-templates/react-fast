@@ -1,7 +1,7 @@
 var path = require('path')
 
 // 监听的端口号，统一在这里
-var port = 8080;
+var port = 8080
 
 module.exports = {
   build: {
