@@ -43,9 +43,12 @@ exports.styleLoaders = function (options) {
   var loaders = exports.cssLoaders(options)
   var css = options.css || 'css'
   var someone = loaders[css]
+  if(someone === 'scss') {
+    someone = 'sass';
+  }
 
   return {
-    test: new RegExp('\\.' + css + '$'),
+    test: new RegExp('\\.css|' + css + '$'),
     loader: someone
   }
 }
